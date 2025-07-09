@@ -1,0 +1,54 @@
+/* Popup Overlay & Content */
+
+
+/* Basic styling of the popup */
+.announcement-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.announcement-popup {
+  background-color: rgb(255, 200, 46); /* CMU gold */
+  color: rgb(106, 0, 50);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 37.5rem;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.popup-close {
+  margin-top: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(106, 0, 50);
+  font-weight: bold;
+}
+
+
+/* popup content styling */
+
+.popup-title {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+
+.popup-message {
+  margin: 0;
+  padding: 0;
+  margin-top: .625rem;
+  margin-bottom: 1.25rem;
+}

@@ -1,0 +1,169 @@
+/* generalHome.css */
+
+.general-information {
+  /*background-color: aqua;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.prayer-times-div {
+  background-color: rgb(106, 0, 50);
+  flex: 1;
+}
+
+.accordion-info-div {
+  background-color: rgb(106, 0, 50);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+/* Taha's Code Starts Here */
+
+.prayer-times-div {
+  background-color: rgb(255, 200, 46);
+  color: rgb(106, 0, 50);
+  flex: 1;
+  font-family: 'Amiri', serif;
+
+}
+.prayer-times-line {
+  transition: all 0.3s ease;
+  padding: .5rem 0;
+  font-size: 1.563rem;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+  margin-top: -0px;
+}
+
+.prayer-times-line:hover {
+  background-color: rgb(106, 0, 50); /* Maroon background on hover */
+  color: rgb(255, 200, 46); /* CMU gold text on hover */
+  cursor: default;
+  transition: all 0.25s ease-in-out;
+}
+.prayer-times-title{
+
+  font-size: 3.125rem;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: .625rem,;
+  margin-top: .625rem;
+
+}
+
+
+/* Taha's Code Ends Here */
+
+
+/* Ahmed's Code Starts Here */
+
+.History{
+  background-color: rgb(106, 0, 50);
+  text-align: center;
+  font-size: large;
+
+  margin: 0;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.historytext{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+
+}
+.text{
+  color: white;
+  font-size: medium;
+  line-height: 25px;
+  width: 1350px;
+  text-align: center;
+}
+
+.DoorLocked {
+ font-weight: bold;
+ text-align: center;
+ color: white;
+}
+
+/* Ahmed's Code Ends Here */
+
+
+
+/* Popup Navigation code starts here */
+
+.menu-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  background-color: rgb(106, 0, 50);
+  color: white;
+}
+
+.menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-content li {
+  margin: 15px 0;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Popup Navigation code ENDS HERE */
+
+@media (max-width: 600px) {
+  .general-information {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,84 @@
+.accordion {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgb(106, 0, 50);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.accordion .accordion-content {
+  background-color: rgb(106, 0, 50);
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+
+.accordion-content:last-child {
+  border-bottom: none;
+}
+
+.accordion-content.open {
+  background-color: rgb(255, 200, 46);
+}
+
+.accordion-content header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgb(106, 0, 50);
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.accordion-content header:hover {
+  background-color: rgb(255, 200, 46);
+  color: rgb(106, 0, 50);
+  
+}
+
+.accordion-content header .title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.accordion-content header i {
+  font-size: 16px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content header:hover i{
+  color: rgb(106, 0, 50);
+}
+
+.accordion-content.open header i {
+  transform: rotate(180deg);
+  color: rgb(106, 0, 50);
+}
+
+.accordion-content.open header {
+  background-color: rgb(255, 200, 46);
+  color: rgb(106, 0, 50);
+}
+
+.accordion-content .description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 20px;
+  color: #333;
+  height: 0;
+  transition: height 0.3s ease, padding 0.3s ease;
+  overflow: hidden;
+}
+
+.accordion-content.open .description {
+  padding: 15px 20px;
+  color: rgb(106, 0, 50);
+}
+

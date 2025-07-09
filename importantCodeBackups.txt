@@ -1,0 +1,12 @@
+mainAnnouncements.json code below
+---------------------------------
+
+{
+  "title": "Masjid Jummah Announcements",
+  "message": "h",
+  "externalLinkIfAnyOP": "",
+  "eventDateOP": "",
+  "eventTimeOP": ""
+}
+
+---------------------------------

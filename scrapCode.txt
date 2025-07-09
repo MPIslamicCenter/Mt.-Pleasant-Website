@@ -1,0 +1,28 @@
+<div class="generative-popup">
+      <div id="main-announcement" class="annoucements-div" onclick="openPopup()">
+        Important Ramadan Iftar Announcement
+        <div class="annoucements-toggle">click to open</div>
+      </div>
+</div>
+
+
+<!-- Popup overlay and content -->
+  <div class="generative-popup">
+
+    <div class="announcement-popup-overlay" id="popup">
+      <div class="announcement-popup">
+        <div class="popup-title">Ramadan Iftar Details</div>
+        <div class="popup-date-OP">March 1, 2000</div>
+        <div class="popup-time-OP">12:00PM</div>
+        <div class="popup-message">
+          We will be hosting daily iftar at the community center starting from the first day of Ramadan.
+          Everyone is welcome! Please bring a dish to share if you can. More details are available on our website.
+        </div>
+        <a class="popup-external-link-OP" href="https://islamiccentermidland.org">Link Here</a>
+        
+      
+        <div class="popup-close" onclick="closePopup()">Close</div>
+      </div>
+    </div>
+  </div>
+
