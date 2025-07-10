@@ -89,7 +89,8 @@
   color: white;
   font-size: medium;
   line-height: 25px;
-  width: 1350px;
+  /*width: 1350px;*/
+  padding: 0 2.188rem;
   text-align: center;
 }
 
