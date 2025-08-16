@@ -70,3 +70,13 @@ And the paragraph
 </p>
 
 Please edit these fields as you see fit, the top half is the title and the bottom half is the message which gets revealed upon click. Only edit the text between the > ... </>
+
+## How to upload the changes?
+You want to find the two files which are editable
+1. mainAnnouncements.json
+2. home.html
+Select the file you want to edit and open.
+Click the edit button which should appear top right. It should look like a pencil.
+Make the changes that you want and and then press commit changes. The page will update after processing which might take a few minutes to a couple of hours.
+
+If you are unsure of anything please reach out to the developers, as making the wrong changes might temporarily crash the website. You can also use AI to enssure you are making the correct changes.
