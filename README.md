@@ -79,4 +79,6 @@ Select the file you want to edit and open.
 Click the edit button which should appear top right. It should look like a pencil.
 Make the changes that you want and and then press commit changes. The page will update after processing which might take a few minutes to a couple of hours.
 
+PLEASE ENSURE THAT ONCE YOU CLICK THE COMMIT CHANGES BUTTON, YOU WRITE A SMALL DESCRIPTION ABOUT THE CHANGES YOU MADE IN THE MESSAGE BOX THAT WILL POOP UP.
+
 If you are unsure of anything please reach out to the developers, as making the wrong changes might temporarily crash the website. You can also use AI to enssure you are making the correct changes.
